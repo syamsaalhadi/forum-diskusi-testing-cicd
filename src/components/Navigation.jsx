@@ -38,8 +38,8 @@ function Navigation() {
             </div>
           ) : (
             <div className="flex items-center gap-2">
-              <NavLink to="/login"><Button variant="secondary">Masuk</Button></NavLink>
-              <NavLink to="/register"><Button variant="primary">Daftar</Button></NavLink>
+              <NavLink to="/login" className="inline-flex items-center justify-center gap-2 rounded-xl border border-brand-200 bg-white px-4 py-2.5 text-sm font-semibold text-brand-600 transition hover:bg-brand-50">Masuk</NavLink>
+              <NavLink to="/register" className="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-500 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-600">Daftar</NavLink>
             </div>
           )}
         </div>
